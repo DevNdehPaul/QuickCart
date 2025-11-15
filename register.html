@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCart</title>
+
+    <!-- fontawesome here -->
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/regular.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- bootsrtap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .btn1{
+    width: 50%;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+}
+    .input4 {
+    width: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.input5 {
+    width: 100%;
+    border: none;
+    background-color: rgb(238, 231, 231);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+    </style>
+</head>
+
+<body>
+    <!-- navbar  -->
+   <nav class="navbar navbar-expand-md navBar bg-light navbar-light fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <h3>QuickCart</h3>
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="navbar-links nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-links nav-link" href="contacts.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-links nav-link" href="login.html">login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- join us button  -->
+            <div class="collapse navbar-collapse justify-content-end">
+                <input type="text" name="" id="" class="input-navbar input4" placeholder="Search Products....."
+                    >
+                <a href="Cart.html" class="nav-link nav-icon" style="margin-left: 15px;"><span class="fas fa-shopping-cart"></span></a>
+                <a href="account.html" class="nav-link nav-icon" style="margin-left: 15px;"><span class="fa fa-user"></span></a>
+            </div>
+            </div>
+    </nav><br><br><br><br><br>
+    <!--navigaation bar-->
+
+    <!--signup form-->
+    <section class="container">
+        <div class="row" id="signup-form">
+            <div class="col-md-6 d-none d-sm-block">
+                <img class="img-fluid rounded" src="assets/image/head.jpg" alt="logo" />
+            </div>
+          <div class="col-md-6">
+            <div class="container">
+                <h1 style="font-weight: bolder;" class="text-center">Get Started</h1>
+                <p class="text-center">Already have an account ? <span style="color: blue;"> <a href="login.html" style="text-decoration: none;"> Log in</a></span></p><br>
+                <form  action="">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" placeholder="Enter Your Name" class="input5"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" class="input5" name="email" placeholder="Enter Your Email"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" class="input5" name="password" placeholder="Enter Your Password"><br>
+                    <label for="confirm password">Confirm Password</label><br>
+                    <input type="password" class="input5" name="c_password" placeholder="Confirm Your Password"><br>
+                    <p style="color: red; text-align: end;"></p>
+                    <center><input type="submit" value="Sign Up" class="btn1"></center>
+                </form>
+            </div>
+        </div>
+        </div><br /><br />
+    </section>
+    <!-- end of signup form-->
+
+     <footer class="bg-dark">
+        <div class="container">
+            <div class="row"><br>
+
+                <!-- the reductions price link -->
+                <div class="col-md-3 mb-4"><br><br>
+                    <h5 class="text-white">Exclusive</h5>
+                    <p class="text-white">Subscribe</p>
+                    <p class="text-white">Get 10% off your first order</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-outline-light ms-2">></button>
+                    </form>
+                </div>
+
+                <!-- the support links -->
+                <div class="col-md-3 mb-4"><br><br>
+                    <h5 class="text-white">Support</h5>
+                    <p class="text-white">Bonaberi, Douala</p>
+                    <p class="text-white">Email: paulndeh86@gmail.com</p>
+                    <p class="text-white">Phone: +237 673254504</p>
+                </div>
+
+                <!-- the Account links -->
+                <div class="col-md-2 mb-4"><br><br>
+                    <h5 class="text-white">Account</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="account.html" class="text-light text-decoration-none">Account</a></li>
+                        <li><a href="register.html" class="text-light text-decoration-none">Register</a></li>
+                        <li><a href="Cart.html" class="text-light text-decoration-none">Cart</a></li>
+                        <li><a href="contacts.html" class="text-light text-decoration-none">Contact</a></li>
+                 </ul>
+                </div>
+
+                <!-- the quick links -->
+                <div class="col-md-2 mb-4"><br><br>
+                    <h5  class="text-white">Quick Link</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Terms Of Use</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- the app Download buttons -->
+                <div class="col-md-2"><br>
+                    <div class="mb-2">
+                        <img src="assets/image/qr.jpg" alt="QR Code" class="img-fluid">
+                    </div>
+
+                    <!-- the icons -->
+                    <div class="mt-3">
+                        <a href="#" class="text-light text-decoration-none me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light text-decoration-none me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light text-decoration-none me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light text-decoration-none"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h5 style="text-align: center; color: grey;" class="pb-3">Copyright@QuickCart</h5>
+        </div>
+    </footer>
+    <!-- Every Js Script goes here -->
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- custom script here  -->
+    <!-- <script src="assets/js/app.js"></script> -->
+
+    <script src="assets/js/jquery.js"></script>
+    <!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
