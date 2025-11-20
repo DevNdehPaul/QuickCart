@@ -1,7 +1,7 @@
 # QuickCart 🛒
 
-QuickCart is a **simple e-commerce web application** designed to make online shopping fast, intuitive, and user-friendly.  
-It provides product listings, a shopping cart system, and checkout functionality — all wrapped in a clean, responsive UI.
+QuickCart is a **simple e-commerce web application UI** designed to make online shopping fast, intuitive, and user-friendly.  
+It provides product listings, a shopping cart interface, and checkout flow — all wrapped in a clean, responsive design.
 
 ---
 
@@ -10,29 +10,29 @@ It provides product listings, a shopping cart system, and checkout functionality
 - Add/remove items from the shopping cart
 - View cart summary with total price
 - Responsive design for desktop and mobile
-- Easy checkout flow
+- Simple checkout flow (UI only)
 
 ---
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python (Flask)
-- **Database:** SQLite (`database.db`)
-- **Deployment:** Gunicorn (via `requirements.txt`)
+- **Database/Backend:** *Not included* (UI prototype only)
 
 ---
 
 ## 📂 Project Structure
-QuickCart/ 
+QuickCart/
 
-│── app.py # Main application entry point 
+│── index.html # Homepage 
 
-│── database.db # SQLite database 
+│── cart.html # Shopping cart page 
 
-│── requirements.txt # Dependencies 
+│── checkout.html # Checkout page 
 
-│── static/ # CSS, JS, images 
+│── login.html # Login form 
 
-│── templates/ # HTML templates 
+│── register.html # Registration form 
 
-│── .idea/ # IDE project settings
+│── contacts.html # Contact page 
+
+│── assets/ # Images, icons, styles 
